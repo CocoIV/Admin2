@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="CSS/admin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <button class="admin-button">Panel de Administrador</button>
+            <a href="JSP/subirArchivo.jsp" target="content-frame" class="button">Subir Archivo</a>
+            <a href="JSP/eliminar.jsp" target="content-frame" class="button">Eliminar Archivo</a>
+            <a href="JSP/modificar.jsp" target="content-frame" class="button">Modificar Archivo</a>
+            <a href="JSP/lista.jsp" target="content-frame" class="button">Lista de Archivos</a>
+        </div>
+        <div class="content">
+            <iframe name="content-frame" class="content-frame"></iframe>
+        </div>
+    </div>
+</body>
+</html>
